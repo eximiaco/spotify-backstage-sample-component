@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sample-api
+  description: Hello World!
+spec:
+  type: openapi
+  lifecycle: production
+  owner: eximiaco
+  system: sample-portal
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Sample API
+      license:
+        name: MIT
+    servers:
+      - url: https://my-backstage.example.com/
+    paths:
+      /:
+        get:
+          summary: Hello World

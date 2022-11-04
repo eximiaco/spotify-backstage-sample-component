@@ -1,0 +1,19 @@
+{
+  "name": "spotify-backstage-sample-component",
+  "version": "1.0.0",
+  "description": "Exemplo de um componente do Spotify Backstage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eximiaco/spotify-backstage-sample-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eximiaco/spotify-backstage-sample-component/issues"
+  },
+  "homepage": "https://github.com/eximiaco/spotify-backstage-sample-component#readme"
+}
